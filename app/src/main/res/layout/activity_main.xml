@@ -13,7 +13,32 @@
         android:text="Panel de Tareas - Bodega Express"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="12dp"/>
+
+    <!-- BOTONES DE NAVEGACIÓN A LAS OTRAS PANTALLAS -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/btnIrCategorias"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Categorías"
+            android:layout_marginRight="8dp"
+            android:backgroundTint="#2196F3"/>
+
+        <Button
+            android:id="@+id/btnIrProductos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Productos"
+            android:backgroundTint="#4CAF50"/>
+    </LinearLayout>
 
     <!-- Spinner requerido por pauta (Filtro) -->
     <TextView
@@ -27,7 +52,7 @@
         android:id="@+id/spinnerCategorias"
         android:layout_width="match_parent"
         android:layout_height="45dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="12dp"
         android:background="#E0E0E0"/>
 
     <!-- CardView con ProgressBar y RatingBar requeridos por pauta -->

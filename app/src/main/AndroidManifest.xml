@@ -33,6 +33,16 @@
             android:exported="true"
             android:windowSoftInputMode="adjustResize" />
 
+        <!-- 4. PANTALLA DE CATEGORÍAS -->
+        <activity
+            android:name=".CategoriasActivity"
+            android:exported="false" />
+
+        <!-- 5. PANTALLA DE PRODUCTOS Y MOVIMIENTOS -->
+        <activity
+            android:name=".ProductosActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>
