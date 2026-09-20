@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         btnIrCategorias = findViewById(R.id.btnIrCategorias);
         btnIrProductos = findViewById(R.id.btnIrProductos);
 
-        // Configuración del Spinner requerido por la rúbrica
+        //Spinner
         spinnerCategorias = findViewById(R.id.spinnerCategorias);
         String[] categorias = {"Todas las Tareas", "Recepción de Mercadería", "Despacho", "Control de Stock"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(

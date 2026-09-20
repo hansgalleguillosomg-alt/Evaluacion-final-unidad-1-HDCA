@@ -56,7 +56,7 @@
             android:paddingHorizontal="12dp"
             android:layout_marginBottom="24dp"/>
 
-        <!-- RadioGroup y RadioButton requeridos por pauta -->
+        <!-- RadioGroup y RadioButton -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -86,7 +86,7 @@
                 android:text="Bodeguero"/>
         </RadioGroup>
 
-        <!-- CheckBox requerido por pauta -->
+        <!-- CheckBox -->
         <CheckBox
             android:id="@+id/chkRecordar"
             android:layout_width="wrap_content"
